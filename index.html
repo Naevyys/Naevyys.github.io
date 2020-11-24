@@ -1,19 +1,89 @@
 <!DOCTYPE html>
-<html>
-    <head>
+<html lang="en">
+<head>
+    <title>Iris Kremer - Personal Website</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<!-- <div class="jumbotron text-center" style="margin-bottom:0">
+    <h1>Iris Kremer</h1>
+    <p>Computer Science</p> 
+</div> -->
 
-        <!-- jQuery and JS bundle w/ Popper.js -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Iris Kremer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About me</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#semesterProjects">Semester Projects</a>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>    --> 
+        </ul>
+    </div>  
+</nav>
 
-    </head>
-    <body>
+<div class="container" style="margin-top:30px">
+    <div class="row">
+        <!-- <div class="col-sm-4">
+            <h2>About Me</h2>
+            <h5>Photo of me:</h5>
+            <div class="fakeimg">Fake Image</div>
+            <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+            <h3>Some Links</h3>
+            <p>Lorem ipsum dolor sit ame.</p>
+            <ul class="nav nav-pills flex-column">
+                <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <hr class="d-sm-none">
+        </div> -->
+        <center><div class="col-sm-12">
+            <h1 class="firstHeading sectionTitle" id="aboutMe">About me</h1>
+            <br>
+            <p>Welcome on my personal website! My name is Iris and I am a computer science student at the University of Luxembourg.</p>
+            <p>I intend to develop this website further in the future, but for now, I just made it to showcase the semester projects I made within the frame of my bachelor studies!</p>
+            <h1 class="sectionTitle" id="semesterProjects">Semester Projects</h1>
+            <br>
+            <p>In this section, I am presenting the bachelor semester projects, short BSPs, which I made during my bachelor studies.</p>
+            <h3 class="projectTitle">A Web-based Editing Interface for Georeferenced Data</h3>
+            <h5 class="projectSubtitle">Bachelor Semester Project 1 - Winter semester 2018/2019</h5>
+            <p><b>Project description: </b>Georeferenced data is underlying many of the most exciting computer systems and services today. In this project, the student will explore how such data can be created and managed, using the latest APIs and standards for creating interactive, web-based applications such as HTML5. Aside from a taxonomy of the available technologies and platforms, the project shall result in a prototypical design and implementation for such a management interface.</p>
+            <!-- <p>Some text..</p> --> <!-- Add link to pdf report in this line -->
+            <div class="videoWrapper"> <!-- Replace this video with project video -->
+                <iframe class="video" src="https://www.youtube.com/embed/eYX2JTDuPaw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <!-- <br> -->
+        </div></center>
+    </div>
+</div>
 
-        <h1>My Website</h1>
-        <p>Lorem Ipsum dolor si amet...</p>
+<!-- <div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div> -->
 
-    </body>
+</body>
 </html>
