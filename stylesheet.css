@@ -3,15 +3,9 @@
 }
 
 .pictureContainer {
-    padding-top: 15px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-    padding-right: 20px;
-}
-
-.picture {
     position: relative;
-    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .projectTitle {
