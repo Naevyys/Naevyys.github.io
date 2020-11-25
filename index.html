@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -38,55 +37,60 @@
 
 <div class="container" style="margin-top:30px">
     <div class="row">
-        <div class="col-sm-3">
+        <nav class="col-sm-3">
             <h2 class="sectionTitle" id="aboutMe">About Me</h2>
-            <!-- <h5>Photo of me:</h5> -->
-            <div class="picture">Picture of me</div>
-            <p>Welcome on my personal webpage! My name is Iris and I am a computer science undergraduate at the University of Luxembourg.</p>
+            <img class="picture" src="Me.jpg" alt="Picture of me">
+            <p>Welcome on my personal webpage!</p>
             <p>For now, I just made this webpage to showcase the semester projects I made within the frame of my bachelor studies, but I intend to develop it further in the future.</p>
-            <h4>Some Links</h4>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <ul class="nav nav-pills flex-column">
-                <li class="nav-item">
-                <a class="nav-link active" href="#">Active</a>
+            <h4>Navigation</h4>
+            <ul class="nav nav-pills flex-column" data-spy="affix">
+                <li>
+                <a class="nav-link" href="#">Back to the top</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <li>
+                <a class="nav-link" href="#BSP5">BSP5</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <li>
+                <a class="nav-link" href="#BSP3">BSP3</a>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
+                <li>
+                <a class="nav-link" href="#BSP2">BSP2</a>
+                </li>
+                <li>
+                <a class="nav-link" href="#BSP1">BSP1</a>
                 </li>
             </ul>
             <hr class="d-sm-none">
-        </div>
+        </nav>
         <div class="col-sm-9">
             <h2 class="sectionTitle" id="semesterProjects">Semester Projects</h2>
             <br>
-            <p>In this section, I am presenting the bachelor semester projects, short BSPs, which I made during my bachelor studies.</p>
-            <p>Note that there is no BSP4, because this was my exchange semester, during which I went abroad and did not do a BSP.</p>
-            <h3 class="projectTitle">SmartSparks - A Crowdsourcing App for Organisations</h3>
+            <p>In this section, I am presenting the bachelor semester projects, short BSPs, which I made during my bachelor studies at the University of Luxembourg.</p>
+            <p><i>There is no BSP4, because I went on exchange during semester 4 and did not do a BSP.</i></p>
+            <h3 class="projectTitle" id="BSP5">SmartSparks - A Crowdsourcing App for Organisations</h3>
             <h5 class="projectSubtitle">Bachelor Semester Project 5 - Winter semester 2020/2021</h5>
+            <p><b>Project Academic Tutor: </b>Steffen Rothkugel</p>
             <p><b>Project description: </b>Crowdsourcing is a powerful and sometimes underestimated technique to gather data from the crowd. It can be used for instance in scientific research to gather necessary scientific data through or from the entire population, or within companies or groups of people to gather new ideas more efficiently. However, in the latter case, involving a large group of people in the common process of innovation is difficult for reasons such as lack of communication means between people and a large amount of ideas out of which the bests need to be selected. The aim of this project is to create a prototypical app which will help companies to perform crowdsourcing among their employees and eventually also their customers. </p>
             <p><i>This project is currently ongoing. The final report and video will be published here as soon as they are available.</i></p>
-            <h3 class="projectTitle">Explore explainable AI with QT</h3>
+            <h3 class="projectTitle" id="BSP3">Explore explainable AI with QT</h3>
             <h5 class="projectSubtitle">Bachelor Semester Project 3 - Winter semester 2019/2020</h5>
+            <p><b>Project Academic Tutor: </b>Amro Najjar</p>
             <p><b>Project description: </b>Artificial intelligence is a wide and complex field of computer science, closely related to robotics. During this project, the student will program the university robot QT to play music according to the facial expression of the human in front of her, i.e. if the human looks sad, QT will play sad music, and if the human looks happy, the music should be happy too. Through this practice, the student will explore and work on the domains of Human-Robot Interaction and Explainable AI, which will allow her to describe and explain the QT’s behaviour with the human. </p>
             <!-- <p>Some text..</p> --> <!-- Add link to pdf report in this line -->
             <div class="videoWrapper">
                 <iframe class="video" src="https://www.youtube.com/embed/pmO_8V1fKBk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <h3 class="projectTitle">ObDrop - A Mobile Application using Augmented Reality</h3>
+            <h3 class="projectTitle" id="BSP2">ObDrop - A Mobile Application using Augmented Reality</h3>
             <h5 class="projectSubtitle">Bachelor Semester Project 2 - Summer semester 2018/2019</h5>
+            <p><b>Project Academic Tutor: </b>Jean Botev</p>
             <p><b>Project description: </b>Sharing georeferenced information between users is common to many mobile applications and services; far less common is the location-based sharing of virtual objects. In this project, the student will develop a prototypical, AR-based mobile application that enables users to interactively augment the real world with such objects, which are then shared with and visible to the other users. </p>
             <!-- <p>Some text..</p> --> <!-- Add link to pdf report in this line -->
             <div class="videoWrapper">
                 <iframe class="video" src="https://www.youtube.com/embed/fvfc3bBx0mA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <h3 class="projectTitle">A Web-based Editing Interface for Georeferenced Data</h3>
+            <h3 class="projectTitle" id="BSP1">A Web-based Editing Interface for Georeferenced Data</h3>
             <h5 class="projectSubtitle">Bachelor Semester Project 1 - Winter semester 2018/2019</h5>
+            <p><b>Project Academic Tutor: </b>Jean Botev</p>
             <p><b>Project description: </b>Georeferenced data is underlying many of the most exciting computer systems and services today. In this project, the student will explore how such data can be created and managed, using the latest APIs and standards for creating interactive, web-based applications such as HTML5. Aside from a taxonomy of the available technologies and platforms, the project shall result in a prototypical design and implementation for such a management interface.</p>
             <!-- <p>Some text..</p> --> <!-- Add link to pdf report in this line -->
             <div class="videoWrapper">

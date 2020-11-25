@@ -2,9 +2,13 @@
     padding-top: 25px;
 }
 
-/* .firstHeading {
-    padding-top: 50px;
-} */
+.picture {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 100%;
+}
 
 .projectTitle {
     padding-top: 25px;
