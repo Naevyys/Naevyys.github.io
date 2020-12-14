@@ -1,3 +1,11 @@
+* {
+    font-family: 'Rubik';
+}
+
+p {
+    font-family: 'Karla';
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -50,10 +58,12 @@ a.disabled {
 
 .projectTitle {
     padding-top: 25px;
+    color: #411429;
 }
 
 .projectSubtitle {
     padding-bottom: 15px;
+    color: #555555;
 }
 
 .videoWrapper {
