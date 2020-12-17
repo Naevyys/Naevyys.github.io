@@ -46,9 +46,14 @@ a.disabled {
     background-color: #411429;
 }
 
-.sectionTitle {
-    padding-top: 25px;
+.sectionHeader {
+    margin-top: 25px;
+    margin-bottom: 75px;
 }
+
+/* .sectionTitle {
+    padding-top: 25px;
+} */
 
 .pictureContainer {
     position: relative;
@@ -56,18 +61,30 @@ a.disabled {
     padding-bottom: 20px;
 }
 
+.project {
+    margin: 75px 0px 75px 0px;
+}
+
 .projectTitle {
-    padding-top: 25px;
     color: #411429;
 }
 
 .projectSubtitle {
-    padding-bottom: 15px;
     color: #555555;
+}
+
+.projectDescription {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.separator {
+    margin: 0px 75px 0px 75px;
 }
 
 .videoWrapper {
     position: relative;
+    margin-bottom: 25px;
     padding-bottom: 56.25%;
     padding-top: 25px;
     height: 0px;
@@ -87,4 +104,13 @@ a.disabled {
     top: 0;
     width: 100%;
     z-index: 9999 !important;
+}
+
+.pdfIcon {
+    color: white;
+    padding-right: 10px;
+}
+
+.reportButton {
+    background-color: #411429 !important;
 }
