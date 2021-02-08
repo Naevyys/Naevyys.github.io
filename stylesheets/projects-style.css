@@ -65,14 +65,8 @@ h1 {
     width: 100%;
 }
 
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 9999 !important;
-}
-
 .pdfIcon {
-    color: white;
+    color: #e7effd;
     padding-right: 10px;
 }
 

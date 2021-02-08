@@ -29,21 +29,8 @@ p {
     font-size: 18px;
 }
 
-.center-vertically {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 .navColor {
     background-color: #720025;
-}
-
-.navbar-brand {
-    color:  #e7effd !important;
-}
-
-.navbar-item {
-    color: #e7effd !important;
 }
 
 .dropdown-menu {

@@ -27,6 +27,11 @@ html, body {
     height: 100%;
 }
 
+.center-vertically {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .svg {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -36,19 +41,10 @@ html, body {
     padding: 40px !important;
     font-size: 30px !important;
     color: #e7effd !important;
+    background-color: #720025 !important;
+    border-color: #440016 !important;
 }
 
 .button:hover {
     background-color: #440016 !important;
-    border-color: #440016 !important;
-}
-
-.buttonA {
-    background-color: #720025 !important;
-    border-color: #720025 !important;
-}
-
-.buttonB {
-    background-color: #a30034 !important;
-    border-color: #a30034 !important;
 }
