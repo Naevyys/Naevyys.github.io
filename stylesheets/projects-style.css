@@ -1,24 +1,3 @@
-/* 
-
-Color Palette
-
-Dark red: 4D001C - Dark Sienna
-Red: 7E0027 - Burgundy
-Beige: FFE6CA - Bisque
-White: FFF6EC - Seashell
-Gray: 787373 - Sonic Silver
-Black: 282323 - Raisin Black
-
-*/
-
-* {
-    font-family: 'Rubik';
-}
-
-p {
-    font-family: 'Karla';
-}
-
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -63,10 +42,6 @@ a.disabled {
     margin-top: 25px;
     margin-bottom: 75px;
 }
-
-/* .sectionTitle {
-    padding-top: 25px;
-} */
 
 .pictureContainer {
     position: relative;

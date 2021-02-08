@@ -1,0 +1,26 @@
+/* 
+
+Color Palette
+
+Light gray: e7effd
+Gray: d4dfec
+Dark gray: 3f3d56
+Light red: a30034
+Red: 720025
+Dark red: 440016
+
+
+*/
+
+* {
+    font-family: 'Rubik';
+    color: #3f3d56;
+}
+
+body {
+    background-color: #e7effd !important;
+}
+
+p {
+    font-family: 'Karla';
+}
