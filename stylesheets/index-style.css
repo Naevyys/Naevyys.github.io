@@ -1,9 +1,19 @@
+/* 
+
+Color Palette
+
+Light gray: e7effd
+Gray: d4dfec
+Dark gray: 3f3d56
+Light red: a30034
+Red: 720025
+Dark red: 440016
+
+
+*/
+
 html, body {
     height: 100%;
-}
-
-h1 {
-    font-size: 75px !important;
 }
 
 .wrapper {
@@ -17,11 +27,6 @@ h1 {
     height: 100%;
 }
 
-.center-vertically {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
 .svg {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -30,6 +35,7 @@ h1 {
 .button {
     padding: 40px !important;
     font-size: 30px !important;
+    color: #e7effd !important;
 }
 
 .button:hover {

@@ -21,6 +21,43 @@ body {
     background-color: #e7effd !important;
 }
 
+h1 {
+    font-size: 70px !important;
+}
+
 p {
-    font-family: 'Karla';
+    font-size: 18px;
+}
+
+.center-vertically {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navColor {
+    background-color: #720025;
+}
+
+.navbar-brand {
+    color:  #e7effd !important;
+}
+
+.navbar-item {
+    color: #e7effd !important;
+}
+
+.dropdown-menu {
+    background-color: #720025 !important;
+    border-color: #720025 !important;
+}
+
+.dropdown-item {
+    color: #e7effd !important;
+    opacity: 50%;
+}
+
+.dropdown-item:hover {
+    background-color: #440016 !important;
+    color: #e7effd !important;
+    opacity: 80%;
 }
