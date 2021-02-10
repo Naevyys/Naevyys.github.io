@@ -1,3 +1,17 @@
+/* 
+
+Color Palette
+
+Light gray: e7effd
+Gray: d4dfec
+Dark gray: 3f3d56
+Light red: a30034
+Red: 720025
+Dark red: 440016
+
+
+*/
+
 ul.timeline {
     list-style-type: none;
     position: relative;
@@ -18,11 +32,11 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
     content: ' ';
-    background: white;
+    background: #720025;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #411429;
+    border: 3px solid #440016;
     left: 20px;
     width: 20px;
     height: 20px;
@@ -31,16 +45,15 @@ ul.timeline > li:before {
 
 a.disabled {
     pointer-events: none;
-    color: #411429;
-}
-
-.sectionHeader {
-    margin-top: 25px;
-    margin-bottom: 75px;
+    color: #440016;
 }
 
 .pictureContainer {
     position: relative;
-    padding-top: 10px;
-    padding-bottom: 20px;
+    max-width: 300px;
+    padding-bottom: 50px;
+}
+
+.section {
+    padding-bottom: 25px;
 }

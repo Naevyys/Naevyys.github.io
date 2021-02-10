@@ -12,20 +12,6 @@ Dark red: 440016
 
 */
 
-h1 {
-    padding-bottom: 40px;
-}
-
-.wrapper {
-    padding-top: 60px;
-    padding-bottom: 25px;
-}
-
-.sectionHeader {
-    margin-top: 25px;
-    margin-bottom: 75px;
-}
-
 .project {
     margin: 75px 0px 75px 0px;
 }
@@ -71,11 +57,15 @@ h1 {
 }
 
 .reportButton {
-    background-color: #720025 !important;
-    border-color: #720025 !important;
+    /* background-color: #720025 !important;
+    border-color: #720025 !important; */
+    background-color: #3f3d56 !important;
+    border-color: #3f3d56 !important;
 }
 
 .reportButton:hover {
-    background-color: #440016 !important;
-    border-color: #440016 !important;
+    /* background-color: #440016 !important;
+    border-color: #440016 !important; */
+    background-color: #a30034 !important;
+    border-color: #a30034 !important;
 }
