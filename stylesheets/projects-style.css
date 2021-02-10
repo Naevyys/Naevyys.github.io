@@ -57,15 +57,11 @@ Dark red: 440016
 }
 
 .reportButton {
-    /* background-color: #720025 !important;
-    border-color: #720025 !important; */
     background-color: #3f3d56 !important;
     border-color: #3f3d56 !important;
 }
 
 .reportButton:hover {
-    /* background-color: #440016 !important;
-    border-color: #440016 !important; */
     background-color: #a30034 !important;
     border-color: #a30034 !important;
 }
