@@ -28,8 +28,8 @@ html, body {
 }
 
 .svg {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .button {
@@ -42,4 +42,8 @@ html, body {
 
 .button:hover {
     background-color: #a30034 !important;
+}
+
+.innerWrapper {
+    max-width: 500px;
 }
