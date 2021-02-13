@@ -95,7 +95,6 @@ a.disabled {
 .skillImage {
     position: relative;
     height: 80px;
-    background-color: #d4dfec;
 }
 
 .skillIcon {
@@ -110,4 +109,24 @@ a.disabled {
 .skillName {
     margin-bottom: 0px !important;
     font-size: 16px;
+}
+
+.notions {
+    background-color: hsla(341, 100%, 22%, 0.2);
+}
+
+.beginner {
+    background-color: hsla(341, 100%, 22%, 0.4);
+}
+
+.intermediate {
+    background-color: hsla(341, 100%, 22%, 0.6);
+}
+
+.advanced {
+    background-color: hsla(341, 100%, 22%, 0.8);
+}
+
+.expert {
+    background-color: hsla(341, 100%, 22%, 1);
 }
