@@ -12,13 +12,17 @@ Dark red: 440016
 
 */
 
+h2 {
+    font-size: 40px !important;
+}
+
 ul.timeline {
     list-style-type: none;
     position: relative;
 }
 ul.timeline:before {
     content: ' ';
-    background: #d4d9df;
+    background: #d4dfec;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -77,4 +81,33 @@ a.disabled {
     transform: translate(-50%, -50%);
     font-size: 20px;
     font-weight: bold;
+}
+
+.skillsRow {
+    padding: 15px;
+}
+
+.skillCard {
+    background-color: #e7effd !important;
+    text-align: center!important;
+}
+
+.skillImage {
+    position: relative;
+    height: 80px;
+    background-color: #d4dfec;
+}
+
+.skillIcon {
+    max-width: 50px !important;
+    max-height: 50px !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skillName {
+    margin-bottom: 0px !important;
+    font-size: 16px;
 }
