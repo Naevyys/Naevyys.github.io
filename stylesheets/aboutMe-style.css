@@ -49,11 +49,32 @@ a.disabled {
 }
 
 .pictureContainer {
-    position: relative;
     max-width: 300px;
-    padding-bottom: 50px;
 }
 
 .section {
     padding-bottom: 25px;
+}
+
+.introLeft {
+    padding-bottom: 20px;
+}
+
+.flag {
+    max-width: 40px !important;
+    margin: 25px 10px;
+}
+
+.flagContainer {
+    position: relative;
+    width: 75px;
+}
+
+.textOnSvg {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: bold;
 }

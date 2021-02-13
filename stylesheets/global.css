@@ -70,14 +70,13 @@ p {
 }
 
 .wrapper {
-    padding-top: 75px;
     padding-bottom: 25px;
 }
 
 .pageTitle {
-    padding-bottom: 75px;
+    padding: 60px 0px;
 }
 
 .pageIntro {
-    padding-bottom: 75px;
+    padding-bottom: 60px;
 }
