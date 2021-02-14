@@ -13,7 +13,7 @@ Dark red: 440016
 */
 
 h2 {
-    font-size: 40px !important;
+    font-size: 50px !important;
 }
 
 ul.timeline {
@@ -83,6 +83,27 @@ a.disabled {
     font-weight: bold;
 }
 
+.legend {
+    color: #3f3d56 !important;
+}
+
+.legend:hover {
+    color: #720025 !important;
+}
+
+.legendContent {
+    background-color: #d4dfec !important;
+    border-color: #e7effd !important;
+}
+
+.legendBanner {
+    margin-top: 15px;
+}
+
+.legendTile {
+    height: 25px;
+}
+
 .skillsRow {
     padding: 15px;
 }
@@ -90,11 +111,13 @@ a.disabled {
 .skillCard {
     background-color: #e7effd !important;
     text-align: center!important;
+    border-color: #e7effd !important;
 }
 
 .skillImage {
     position: relative;
     height: 80px;
+    background-color: #d4dfec;
 }
 
 .skillIcon {
@@ -109,24 +132,21 @@ a.disabled {
 .skillName {
     margin-bottom: 0px !important;
     font-size: 16px;
+    color: #e7effd;
 }
 
-.notions {
-    background-color: hsla(341, 100%, 22%, 0.2);
+.level1 {
+    background-color: hsla(341, 100%, 22%, 0.25);
 }
 
-.beginner {
-    background-color: hsla(341, 100%, 22%, 0.4);
+.level2 {
+    background-color: hsla(341, 100%, 22%, 0.5);
 }
 
-.intermediate {
-    background-color: hsla(341, 100%, 22%, 0.6);
+.level3 {
+    background-color: hsla(341, 100%, 22%, 0.75);
 }
 
-.advanced {
-    background-color: hsla(341, 100%, 22%, 0.8);
-}
-
-.expert {
+.level4 {
     background-color: hsla(341, 100%, 22%, 1);
 }
