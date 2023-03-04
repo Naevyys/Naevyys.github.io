@@ -21,9 +21,9 @@ import arkit from "../images/ARKit.png";
 
 export const educationData = [
     {
-        interval: <>2021 - 2023 <small>(expected)</small></>,
+        interval: <>2021 - 2024 <small>(expected)</small></>,
         school: "École Polytechnique Fédérale de Lausanne",
-        diploma: "Master in Data Science",
+        diploma: "Master in Data Science, Minor in Computational Neuroscience",
     },
     {
         interval: "2018 - 2021",
@@ -40,31 +40,32 @@ export const educationData = [
         school: "European School Luxembourg II",
         diploma: "European Baccalaureate",
     },
-    {
-        interval: "2014 - 2016",
-        school: "Max-Planck Gymnasium Trier",
-        diploma: "Middle Maturity Certificate",
-    },
 ]
 
 export const experienceData = [
     {
-        interval: "Sept-Dec 2020",
-        place: "University of Luxembourg",
-        jobtitle: "Student job, Computer Science department",
-        description: "Student tutor for Discrete Mathematics 1 (Bachelor in Computer Science, Semester 1 course).",
+        interval: "Feb - Aug 2023",
+        place: "Logitech Europe SA",
+        jobtitle: "Engineering Intern in the R&D Department",
+        description: "I am performing exploratory data analysis on a new 1.5TB dataset of bio-signal recordings, aiming to find essential features to predict cognitive load reliably. The final goal for this internship is to identify functionalities that can potentially be implemented in future Logitech technologies.",
     },
     {
-        interval: "Feb-Dec 2019",
-        place: "University of Luxembourg",
-        jobtitle: "Student job, Computer Science department",
-        description: "Supporting various projects of the computer science department.",
+        interval: "Sept 2022 - Feb 2023",
+        place: "École Polytechnique Fédérale de Lausanne",
+        jobtitle: "Assistant for Machine Learning",
+        description: "As an assistant in this 500+ students course, I was responsible for preparing and hosting exercise sessions together with the other teaching assistants. I also participated in the grading of the course by reviewing 17 student group projects on semantic segmentation and grading part of the final exam.",
     },
     {
-        interval: "May 2016",
-        place: "Volksbank Trier",
-        jobtitle: "Internship",
-        description: "Internship of two weeks, within the frame of my secondary school studies at Max-Planck Gymnasium.",
+        interval: "Sept2019 - Dec 2020",
+        place: "University of Luxembourg",
+        jobtitle: "Assistant for Discrete Mathematics 1",
+        description: "I contribured to the preparation of the course with the teaching team, and was responsible for organising and hosting support sessions for the students.",
+    },
+    {
+        interval: "Feb - Dec 2019",
+        place: "University of Luxembourg",
+        jobtitle: "Intern in the Computer Science department",
+        description: "I developed tools to improve the analysis of student feedback on the Bachelor in Computer Science study plan. Furthermore, I followed and assessed several MOOCs on agile methodologies based on strict criteria to improve the bachelor course offer for upcoming years.",
     },
 ]
 
@@ -77,22 +78,22 @@ export const programmingLanguages = [
     {
         src: javascript,
         name: "JavaScript",
-        level: 4,
+        level: 3,
     },
     {
         src: dart,
         name: "Dart",
-        level: 3,
+        level: 2,
     },
     {
         src: swift,
         name: "Swift",
-        level: 3,
+        level: 2,
     },
     {
         src: html,
         name: "HTML",
-        level: 3,
+        level: 2,
     },
     {
         src: css,
@@ -103,16 +104,6 @@ export const programmingLanguages = [
         src: sql,
         name: "SQL",
         level: 2,
-    },
-    {
-        src: prolog,
-        name: "Prolog",
-        level: 1,
-    },
-    {
-        src: xml,
-        name: "XML",
-        level: 1,
     },
     {
         src: c,
@@ -128,43 +119,41 @@ export const technologies = [
         level: 4,
     },
     {
-        src: reactjs,
-        name: "React JS",
-        level: 4,
-    },
-    {
         src: github,
         name: "GitHub",
         level: 4,
     },
     {
-        src: flutter,
-        name: "Flutter",
+        src: reactjs,
+        name: "React JS",
         level: 3,
     },
     {
-        src: bootstrap,
-        name: "Bootstrap",
-        level: 3,
+        src: flutter,
+        name: "Flutter",
+        level: 2,
     },
     {
         src: firebase,
         name: "Firebase",
         level: 2,
     },
+]
+
+export const awards = [
     {
-        src: opencv,
-        name: "OpenCV",
-        level: 2,
+        date: "2021-2023",
+        name: "Master Excellence Fellowship",
+        awardingInstitution: "EPFL",
     },
     {
-        src: ros,
-        name: "ROS",
-        level: 1,
+        date: "2021",
+        name: "Zonta Award",
+        awardingInstitution: "Zonta Club Luxembourg",
     },
     {
-        src: arkit,
-        name: "ARKit",
-        level: 1,
+        date: "2019",
+        name: "BICS Student Project Award",
+        awardingInstitution: "University of Luxembourg",
     },
 ]
