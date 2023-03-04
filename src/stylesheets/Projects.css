@@ -61,6 +61,7 @@ Dark red: 440016
 .reportButton {
     background-color: #3f3d56 !important;
     border-color: #3f3d56 !important;
+    width: 100%;
 }
 
 .reportButton:hover {

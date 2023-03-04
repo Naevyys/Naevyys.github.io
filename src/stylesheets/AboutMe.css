@@ -50,14 +50,11 @@ ul.timeline > li:before {
 a.disabled {
     pointer-events: none;
     color: #440016;
+    text-decoration: none;
 }
 
 .pictureContainer {
     max-width: 300px;
-}
-
-.section {
-    padding-bottom: 25px;
 }
 
 .introLeft {
@@ -71,7 +68,7 @@ a.disabled {
 
 .flagContainer {
     position: relative;
-    width: 75px;
+    width: 75px !important;
 }
 
 .textOnSvg {

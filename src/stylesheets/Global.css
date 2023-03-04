@@ -29,16 +29,18 @@ p {
     font-size: 18px;
 }
 
-.center-vertically {
-    margin-top: auto;
-    margin-bottom: auto;
-}
+/* Replace with my-auto everywhere */
+/* .center-vertically {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+} */
 
-.center-horizontally {
+/* Replace with mx-auto everywhere */
+/* .center-horizontally {
     margin-left: auto;
     margin-right: auto;
 }
-
+ */
 .navColor {
     background-color: #3f3d56;
 }
@@ -74,9 +76,13 @@ p {
 }
 
 .pageTitle {
-    padding: 60px 0px;
+    padding: 120px 0px 60px 0px;
 }
 
 .pageIntro {
     padding-bottom: 60px;
+}
+
+.section {
+    padding-bottom: 25px;
 }
