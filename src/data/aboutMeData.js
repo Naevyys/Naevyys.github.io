@@ -1,27 +1,32 @@
-import python from "../images/python-icon.svg";
-import javascript from "../images/JavaScript.svg";
-import dart from "../images/dartlang-icon.svg";
-import swift from "../images/swift-icon.svg";
-import html from "../images/html5.svg";
-import css from "../images/css3.svg";
-import sql from "../images/sql.svg";
-import prolog from "../images/prolog.svg";
-import xml from "../images/xml.svg";
-import c from "../images/The_C_Programming_Language_logo.svg";
-import latex from "../images/LaTeX.svg";
-import reactjs from "../images/reactjs-icon.svg";
-import github from "../images/icons8-github.svg";
-import flutter from "../images/flutterio-icon.svg";
-import bootstrap from "../images/Bootstrap_logo.svg";
-import firebase from "../images/firebase-icon.svg";
-import opencv from "../images/opencv-icon.svg";
-import ros from "../images/Ros.svg";
-import arkit from "../images/ARKit.png";
+import python from "../images/logos/python-icon.svg";
+import javascript from "../images/logos/JavaScript.svg";
+import dart from "../images/logos/dartlang-icon.svg";
+import swift from "../images/logos/swift-icon.svg";
+import html from "../images/logos/html5.svg";
+import css from "../images/logos/css3.svg";
+import sql from "../images/logos/sql.svg";
+import prolog from "../images/logos/prolog.svg";
+import xml from "../images/logos/xml.svg";
+import c from "../images/logos/The_C_Programming_Language_logo.svg";
+import latex from "../images/logos/LaTeX.svg";
+import reactjs from "../images/logos/reactjs-icon.svg";
+import github from "../images/logos/icons8-github.svg";
+import flutter from "../images/logos/flutterio-icon.svg";
+import bootstrap from "../images/logos/Bootstrap_logo.svg";
+import firebase from "../images/logos/firebase-icon.svg";
+import opencv from "../images/logos/opencv-icon.svg";
+import ros from "../images/logos/Ros.svg";
+import arkit from "../images/logos/ARKit.png";
 
 
 export const educationData = [
     {
-        interval: <>2021 - 2024 <small>(expected)</small></>,
+        interval: "Sept 2023 - Mar 2024",
+        school: "Massachusetts Institute of Technology",
+        diploma: "Master's Thesis",
+    },
+    {
+        interval: "2021 - 2024",
         school: "École Polytechnique Fédérale de Lausanne",
         diploma: "Master in Data Science, Minor in Computational Neuroscience",
     },
@@ -31,7 +36,7 @@ export const educationData = [
         diploma: "Bachelor in Computer Science",
     },
     {
-        interval: "2020",
+        interval: "Jan - May 2020",
         school: "Nanyang Technological University",
         diploma: "Exchange semester",
     },
@@ -47,7 +52,7 @@ export const experienceData = [
         interval: "Feb - Aug 2023",
         place: "Logitech Europe SA",
         jobtitle: "Engineering Intern in the R&D Department",
-        description: "I am performing exploratory data analysis on a new 1.5TB dataset of bio-signal recordings, aiming to find essential features to predict cognitive load reliably. The final goal for this internship is to identify functionalities that can potentially be implemented in future Logitech technologies.",
+        description: "Performed exploratory data analysis on electroencephalography (EEG) data from a 1.5TB dataset of bio-signal recordings. Successfully identified new features yielding state-of-the-art results in cognitive load prediction across new subjects, using transfer learning to match different subjects' data.",
     },
     {
         interval: "Sept 2022 - Feb 2023",
@@ -56,7 +61,7 @@ export const experienceData = [
         description: "As an assistant in this 500+ students course, I was responsible for preparing and hosting exercise sessions together with the other teaching assistants. I also participated in the grading of the course by reviewing 17 student group projects on semantic segmentation and grading part of the final exam.",
     },
     {
-        interval: "Sept2019 - Dec 2020",
+        interval: "Sept 2019 - Dec 2020",
         place: "University of Luxembourg",
         jobtitle: "Assistant for Discrete Mathematics 1",
         description: "I contribured to the preparation of the course with the teaching team, and was responsible for organising and hosting support sessions for the students.",
@@ -142,7 +147,12 @@ export const technologies = [
 
 export const awards = [
     {
-        date: "2021-2023",
+        date: "2024",
+        name: "Master Thesis Abroad Fellowship",
+        awardingInstitution: "EPFL Women in Science and Humanities Foundation",
+    },
+    {
+        date: "2021 - 2024",
         name: "Master Excellence Fellowship",
         awardingInstitution: "EPFL",
     },
@@ -150,10 +160,5 @@ export const awards = [
         date: "2021",
         name: "Zonta Award",
         awardingInstitution: "Zonta Club Luxembourg",
-    },
-    {
-        date: "2019",
-        name: "BICS Student Project Award",
-        awardingInstitution: "University of Luxembourg",
     },
 ]

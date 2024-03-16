@@ -1,35 +1,36 @@
 import Navigation from "../components/Navbar";
-import { BSPCard } from "../components/Cards";
+import { MasterProjectCard } from "../components/Cards";
 import { Wrapper, PageIntro } from "../components/Layout";
 import { Container, Row, Col } from "react-bootstrap";
 
-import { projectData } from "../data/projectData";
+import { MasterProjectData } from "../data/projectData";
 
 import "../stylesheets/Global.css";
 import "../stylesheets/Projects.css";
 
-function Projects() {
+function MasterProjects() {
     return (
         <Wrapper>
-        <Navigation active="projects" />
+        <Navigation active="masterprojects" />
         <Container>
             <Row>
                 <Col>
                     <center>
-                        <h1 className="pageTitle">Bachelor Semester Projects</h1>
+                        <h1 className="pageTitle">Master Projects</h1>
                     </center>
-                    {projectData.map((data, key) => {
+                    {MasterProjectData.map((data, key) => {
                         return (
                             <>
-                                <BSPCard 
-                                    id={data.id}
+                                <MasterProjectCard 
                                     title={data.title}
-                                    sem={data.sem}
-                                    tutor={data.tutor}
-                                    description={data.description}
+                                    subtitle={data.subtitle}
+                                    place={data.place}
+                                    supervisor={data.supervisor}
+                                    summary={data.summary}
                                     tech={data.tech}
-                                    video={data.video}
-                                    report={data.report}
+                                    src={data.src}
+                                    alt={data.alt}
+                                    legend={data.legend}
                                 />
                                 <hr className="separator" />
                             </>
@@ -42,6 +43,6 @@ function Projects() {
     );
 }
 
-export default Projects
+export default MasterProjects
 
 /* Mention BSP1 project award */

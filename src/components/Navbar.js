@@ -15,6 +15,7 @@ function Navigation(props) {
                 <Navbar.Collapse id="navigation">
                     <Nav activeKey={props.active}>
                         <Nav.Link eventKey="aboutme" onClick={ () => {history.push("/aboutme")} }>About me</Nav.Link>
+                        <Nav.Link eventKey="masterprojects" onClick={ () => {history.push("/masterprojects")} }>Master Projects</Nav.Link>
                         <Nav.Link eventKey="projects" onClick={ () => {history.push("/projects")} }>Bachelor Projects</Nav.Link>
                         <Nav.Link eventKey="ghlink" href="https://github.com/Naevyys" target="_blank"><i className="fa fa-github icon"></i> GitHub</Nav.Link>
                         <Nav.Link eventKey="linkedinlink" href="https://www.linkedin.com/in/iris-kremer-5566041a4/" target="_blank"><i className="fa fa-linkedin-square icon"></i> LinkedIn</Nav.Link>

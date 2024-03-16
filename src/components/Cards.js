@@ -4,6 +4,47 @@ import "../stylesheets/Global.css";
 import "../stylesheets/Projects.css";
 import "../stylesheets/AboutMe.css";
 
+
+export function MasterProjectCard(props) {
+    let card;
+    if (props.src === undefined) {
+        card = (
+            <>
+                <div className="project">
+                    <center><h3 className="projectTitle">{props.title}</h3>
+                    <h5 classname="projectSubtitle">{props.subtitle + " - Carried out in the " + props.place}</h5></center>
+                    <div className="projectDescription">
+                        <p><b>Supervisor(s): </b>{props.supervisor}</p>
+                        <p className="text-justify"><b>Project summary: </b>{props.summary}</p>
+                        <p><b>Main fields and technologies: </b>{props.tech}</p>
+                    </div>
+                    <center><div><p>(No image available or bound to NDA)</p></div></center>
+                </div>
+            </>
+        )
+    } else {
+        card = (
+            <>
+                <div className="project">
+                    <center><h3 className="projectTitle">{props.title}</h3>
+                    <h5 classname="projectSubtitle">{props.subtitle + " - Carried out in the " + props.place}</h5></center>
+                    <div className="projectDescription">
+                        <p><b>Supervisor(s): </b>{props.supervisor}</p>
+                        <p className="text-justify"><b>Project summary: </b>{props.summary}</p>
+                        <p><b>Main fields and technologies: </b>{props.tech}</p>
+                    </div>
+                    <div>
+                        <center><img className="img-fluid projectimg" src={props.src} alt={"Alternative image description: " + props.alt} />
+                        <p><br/>{props.legend}</p></center>
+                    </div>
+                </div>
+            </>
+        )
+    }
+    return card
+}  // TODO: if statement for no image provided, if statement for optional report
+
+
 export function BSPCard(props) {
     return (
         <>

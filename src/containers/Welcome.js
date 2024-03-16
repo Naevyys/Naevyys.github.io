@@ -24,7 +24,7 @@ function Welcome() {
               <img src={introPic} className="img-fluid svg" alt="Woman working on her laptop."></img>
               <ButtonGroup className="buttonGroup">
                 <Button variant="secondary" size="lg" className="button" onClick={ () => {history.push("/aboutme")} }>About me</Button>
-                <Button variant="secondary" size="lg" className="button" onClick={ () => {history.push("/projects")} }>Projects</Button>
+                <Button variant="secondary" size="lg" className="button" onClick={ () => {history.push("/masterprojects")} }>Projects</Button>
               </ButtonGroup>
             </div>
           </center>

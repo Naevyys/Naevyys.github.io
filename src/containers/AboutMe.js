@@ -11,9 +11,9 @@ import "../stylesheets/Global.css";
 import "../stylesheets/AboutMe.css";
 
 import me from "../images/Me.jpg";
-import french from "../images/france.svg";
-import german from "../images/germany.svg";
-import english from "../images/united-kingdom.svg";
+import french from "../images/logos/france.svg";
+import german from "../images/logos/germany.svg";
+import english from "../images/logos/united-kingdom.svg";
 import React from "react";
 
 function AboutMe() {
@@ -35,7 +35,7 @@ function AboutMe() {
                             </div>
                         </Col>
                         <Col lg={9} className="my-auto">
-                            <p className="text-justify">I aim to foster the improvement of machine learning algorithms by taking inspiration from neuroscience and brain mechanisms. Looking for a 6-month master thesis starting in September 2023.</p>
+                            <p className="text-justify">Passionate about Machine Learning algorithms development, explainable AI and generative AI. Looking for an entry-level position starting mid April 2024.</p>
                             <center>
                                 <Row className="justify-content-center">
                                     <FlagContainer src={french} level="C2" />
