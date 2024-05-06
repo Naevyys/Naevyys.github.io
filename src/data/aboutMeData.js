@@ -8,6 +8,7 @@ import sql from "../images/logos/sql.svg";
 import prolog from "../images/logos/prolog.svg";
 import xml from "../images/logos/xml.svg";
 import c from "../images/logos/The_C_Programming_Language_logo.svg";
+import bash from "../images/logos/bash.svg";
 import latex from "../images/logos/LaTeX.svg";
 import reactjs from "../images/logos/reactjs-icon.svg";
 import github from "../images/logos/icons8-github.svg";
@@ -17,6 +18,14 @@ import firebase from "../images/logos/firebase-icon.svg";
 import opencv from "../images/logos/opencv-icon.svg";
 import ros from "../images/logos/Ros.svg";
 import arkit from "../images/logos/ARKit.png";
+import jupyter from "../images/logos/Jupyter_logo.svg";
+import hpc from "../images/logos/HPC.png";
+import openai from "../images/logos/openai.svg";
+import RD from "../images/logos/RandD.png";
+import agile from "../images/logos/agile.png";
+import communication from "../images/logos/communication.png";
+import teamwork from "../images/logos/teamwork.png";
+import codedoc from "../images/logos/code_documentation.png";
 
 
 export const educationData = [
@@ -24,16 +33,19 @@ export const educationData = [
         interval: "Sept 2023 - Mar 2024",
         school: "Massachusetts Institute of Technology",
         diploma: "Master's Thesis",
+        details: "Grade: 6/6. I was awarded the Master's Thesis Abroad Fellowship by the EPFL Women in Science and Humanities Foundation for this opportunity."
     },
     {
         interval: "2021 - 2024",
         school: "École Polytechnique Fédérale de Lausanne",
-        diploma: "Master in Data Science, Minor in Computational Neuroscience",
+        diploma: "Master in Data Science",
+        details: "GPA: 5.43/6, with a minor in Computational Neuroscience. I was awarded the Master Excellence Fellowship by EPFL alongside my admission."
     },
     {
         interval: "2018 - 2021",
         school: "University of Luxembourg",
         diploma: "Bachelor in Computer Science",
+        details: "GPA: 92 %, Valedictorian. I was awarded the Zonta Award by the Zonta Club Luxembourg for my outstanding academic performances."
     },
     {
         interval: "Jan - May 2020",
@@ -86,29 +98,24 @@ export const programmingLanguages = [
         level: 3,
     },
     {
-        src: dart,
-        name: "Dart",
-        level: 2,
-    },
-    {
         src: swift,
         name: "Swift",
         level: 2,
     },
     {
-        src: html,
-        name: "HTML",
-        level: 2,
-    },
-    {
-        src: css,
-        name: "CSS",
+        src: dart,
+        name: "Dart",
         level: 2,
     },
     {
         src: sql,
         name: "SQL",
         level: 2,
+    },
+    {
+        src: bash,
+        name: "Bash",
+        level: 1,
     },
     {
         src: c,
@@ -119,13 +126,18 @@ export const programmingLanguages = [
 
 export const technologies = [
     {
+        src: github,
+        name: "GitHub",
+        level: 4,
+    },
+    {
         src: latex,
         name: "LaTeX",
         level: 4,
     },
     {
-        src: github,
-        name: "GitHub",
+        src: jupyter,
+        name: "Jupyter NBs",
         level: 4,
     },
     {
@@ -134,14 +146,52 @@ export const technologies = [
         level: 3,
     },
     {
+        src: openai,
+        name: "OpenAI API",
+        level: 2,
+    },
+    {
+        src: hpc,
+        name: "HPC",
+        level: 1,
+    },
+    {
         src: flutter,
         name: "Flutter",
-        level: 2,
+        level: 1,
     },
     {
         src: firebase,
         name: "Firebase",
-        level: 2,
+        level: 1,
+    },
+]
+
+export const projectManagement = [
+    {
+        src: RD,
+        name: "Research & Development",
+        level: 4,
+    },
+    {
+        src: agile,
+        name: "LaTeX",
+        level: 4,
+    },
+    {
+        src: codedoc,
+        name: "Code documentation",
+        level: 4,
+    },
+    {
+        src: teamwork,
+        name: "Team work",
+        level: 3,
+    },
+    {
+        src: communication,
+        name: "Communication",
+        level: 3,
     },
 ]
 

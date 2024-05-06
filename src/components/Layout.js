@@ -36,3 +36,14 @@ export function Subsection(props) {
         </div>
     );
 }
+
+export function SubsectionFullRow(props) {
+    return (
+        <div className="subsection pl-3 pr-3">
+            <h5>{props.title}</h5>
+            <Row xs={2} lg={3} xxl={5} className="row-cols-2 skillsRow">
+                {props.children}
+            </Row>
+        </div>
+    );
+}

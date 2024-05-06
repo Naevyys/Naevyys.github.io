@@ -19,21 +19,34 @@ export function Timeline(props) {
 }
 
 export function EducationElement(props) {
+
+    var details = <></>
+
+    if (props.details) {
+        details = <p><small>{props.details}</small></p>
+    } 
+
     return (
         <li>
-            <b><a href="#" className="disabled">{props.interval}</a></b><br />
-            <p>{props.school}</p>
-            <p><i>{props.diploma}</i></p>
+            <p><b><a href="#" className="disabled">{props.diploma}</a></b><br />
+            <b>{props.school}</b><br />{props.interval}</p>
+            {details}
         </li>
     );
 }
 
 export function ExperienceElement(props) {
+    var description = <></>
+
+    if (props.description) {
+        description = <p><small>{props.description}</small></p>
+    } 
+
     return (
         <li>
-            <b><a href="#" className="disabled">{props.interval}</a></b><br />
-            <p>{props.place}</p>
-            <p><i>{props.jobtitle}</i><br /><small>{props.description}</small></p>
+            <p><b><a href="#" className="disabled">{props.jobtitle}</a></b><br />
+            <b>{props.place}</b><br />{props.interval}</p>
+            {description}
         </li>
     );
 }

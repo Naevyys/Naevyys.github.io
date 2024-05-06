@@ -61,6 +61,10 @@ a.disabled {
     padding-bottom: 20px;
 }
 
+.qualificationsTitle {
+    padding-bottom: 50px;
+}
+
 .flag {
     max-width: 40px !important;
     margin: 0px 10px 25px 10px;

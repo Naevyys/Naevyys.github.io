@@ -1,5 +1,5 @@
 import { useHistory } from "react-router-dom";
-import { Wrapper, PageIntro, Section, Subsection } from "../components/Layout";
+import { Wrapper, PageIntro } from "../components/Layout";
 import { FlagContainer } from "../components/Elements";
 import { Container, Row, Col, ButtonGroup, Button } from "react-bootstrap";
 
@@ -57,8 +57,8 @@ function Welcome() {
                     <Row className="rowPadding">
                         <ButtonGroup vertical className="buttonGroup">
                             <Button variant="secondary" size="lg" className="button" onClick={ () => {history.push("/qualifications")} }>Qualifications</Button>
-                            <Button variant="secondary" size="lg" className="button" onClick={ () => {history.push("/masterprojects")} }>Master Projects</Button>
-                            <Button variant="secondary" size="lg" className="button" onClick={ () => {history.push("/projects")} }>Bachelor Projects</Button>
+                            <Button variant="secondary" size="lg" className="button mt-1" onClick={ () => {history.push("/masterprojects")} }>Master Projects</Button>
+                            <Button variant="secondary" size="lg" className="button mt-1" onClick={ () => {history.push("/projects")} }>Bachelor Projects</Button>
                         </ButtonGroup>
                     </Row>
                 </Col>

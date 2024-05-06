@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
 
 import "../stylesheets/Global.css";
@@ -14,7 +14,7 @@ function Navigation(props) {
                 <Navbar.Toggle aria-controls="navigation" />
                 <Navbar.Collapse id="navigation">
                     <Nav activeKey={props.active}>
-                        <Nav.Link eventKey="aboutme" onClick={ () => {history.push("/aboutme")} }>About me</Nav.Link>
+                        <Nav.Link eventKey="qualifications" onClick={ () => {history.push("/qualifications")} }>Qualifications</Nav.Link>
                         <Nav.Link eventKey="masterprojects" onClick={ () => {history.push("/masterprojects")} }>Master Projects</Nav.Link>
                         <Nav.Link eventKey="projects" onClick={ () => {history.push("/projects")} }>Bachelor Projects</Nav.Link>
                         <Nav.Link eventKey="ghlink" href="https://github.com/Naevyys" target="_blank"><i className="fa fa-github icon"></i> GitHub</Nav.Link>
