@@ -12,7 +12,7 @@ Dark red: 440016
 
 */
 
-html, body, #root {
+html, body, #root, .wrapper, .container {
     height: 100%;
 }
 
@@ -23,8 +23,12 @@ html, body, #root {
     padding-bottom: 50px !important;
 }
 
-.container {
-    height: 100%;
+.colPadding {
+    padding: 0px 30px !important;
+}
+
+.rowPadding {
+    padding-top: 20px;
 }
 
 .svg {
@@ -52,4 +56,8 @@ html, body, #root {
 
 .buttonGroup {
     display: flex !important;
+}
+
+.socialGroup {
+    margin: 0px;
 }
