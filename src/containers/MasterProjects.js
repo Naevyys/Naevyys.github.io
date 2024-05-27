@@ -25,6 +25,7 @@ function MasterProjects() {
                                     title={data.title}
                                     subtitle={data.subtitle}
                                     place={data.place}
+                                    date={data.date}
                                     supervisor={data.supervisor}
                                     summary={data.summary}
                                     tech={data.tech}

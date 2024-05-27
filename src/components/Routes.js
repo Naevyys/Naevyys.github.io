@@ -9,7 +9,7 @@ function Routes() {
     return (
         <Switch>
             <Route exact path="/qualifications" component={Qualifications} />
-            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/bachelorprojects" component={Projects} />
             <Route exact path="/masterprojects" component={MasterProjects} />
 			<Route path="/" component={Welcome} />
         </Switch>

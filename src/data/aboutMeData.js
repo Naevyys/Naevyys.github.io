@@ -30,7 +30,7 @@ import codedoc from "../images/logos/code_documentation.png";
 
 export const educationData = [
     {
-        interval: "Sept 2023 - Mar 2024",
+        interval: "Sept 2023 - Apr 2024",
         school: "Massachusetts Institute of Technology",
         diploma: "Master's Thesis",
         details: "Grade: 6/6. I was awarded the Master's Thesis Abroad Fellowship by the EPFL Women in Science and Humanities Foundation for this opportunity."
@@ -175,7 +175,7 @@ export const projectManagement = [
     },
     {
         src: agile,
-        name: "LaTeX",
+        name: "Agile methodologies",
         level: 4,
     },
     {

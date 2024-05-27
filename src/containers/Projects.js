@@ -11,7 +11,7 @@ import "../stylesheets/Projects.css";
 function Projects() {
     return (
         <Wrapper>
-        <Navigation active="projects" />
+        <Navigation active="backelorprojects" />
         <Container>
             <Row>
                 <Col>

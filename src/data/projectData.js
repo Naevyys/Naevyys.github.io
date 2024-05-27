@@ -1,6 +1,7 @@
 import masterthesisimg from "../images/project_images/master_thesis.png"
 import semesterprojectmathis from "../images/project_images/semester_project_mathis.png"
 import courseprojectml from "../images/project_images/course_project_ml.png"
+import courseprojectdl from "../images/project_images/course_project_dl.png"
 
 import BSP1Report from "../reports/BSP1Report.pdf";
 import BSP2Report from "../reports/BSP2Report.pdf";
@@ -13,6 +14,7 @@ export const MasterProjectData = [
         title: "Towards Better Understanding of Positional Bias in Transformer-based Language Models",
         subtitle: "Master's Thesis",
         place: "ALFA group, Computer Science and Artificial Intelligence Laboratory, MIT",
+        date: "Winter semester 2023/2024",
         supervisor:  "Dr. Erik Hemberg, Dr. Léo Laugier, Prof. Karl Aberer",
         summary: "Characterization of positional bias in transformer-based Large Language Models (LLMs), and development of a mitigation technique against it at the LLM design level. Worked with a retrieval-augmented generation task where the order in which two contexts are provided to the LLM should be irrelevant. The proposed technique was benchmarked on GPT-2 small and LLaMA 2 7B to quantify the amount of positional bias mitigated. Using mechanistic interpretability approaches on internal activations of GPT-2 small, internal mechanisms and components affected by the mitigation technique were reverse-engineered. Some of these components were identified to be involved in positional bias, providing transparency on its origins through component activations.",
         tech: "Transformer-based Large Language Models, Mechanistic Interpretability, Python, Pytorch, TransformerLens",
@@ -24,6 +26,7 @@ export const MasterProjectData = [
         title: "A Reinforcement Learning Model to Replicate Mice Behavior",
         subtitle: "Semester Project",
         place: "Mathis Laboratory for Motor Control, EPFL Campus Biotech",
+        date: "Winter semester 2022/2023",
         supervisor:  "Dr. Thomas Sainsbury, Prof. Mackenzie Mathis",
         summary: "Trained reinforcement learning agents in Unity to realistically reproduce the behavior or laboratory mice playing virtual reality games. Aims to compare mice brain learning pathways with RL agents neural networks learning pathways, and reduce animal experiments by using models instead.",
         tech: "Reinforcement Learning, Python, Pytorch, Stable Baselines3, C#, Unity",
@@ -35,15 +38,29 @@ export const MasterProjectData = [
         title: "Dimensionality Reduction on Spiking Neuron Networks Data",
         subtitle: "Semester Project",
         place: "Blue Brain Project, EPFL Campus Biotech",
+        date: "Winter semester 2022/2023",
         supervisor:  "Dr. Armando Romani",
-        summary: "Developped an automated pipeline of dimensionality reduction, clustering and advanced visualisation techniques to extract spatial and temporal patterns in the behavior of simulated spiking neuron networks.",
+        summary: "Developed an automated pipeline of dimensionality reduction, clustering and advanced visualisation techniques to extract spatial and temporal patterns in the behavior of simulated spiking neuron networks. Further details are restricted due to NDA.",
         tech: "Dimensionality Reduction, Clustering, Python, Scikit-learn, NEURON, HPC, Matplotlib, Seaborn"
     },
     {
         title: "An Attention-based U-Net Model for Road Segmentation",
         subtitle: "Course Project",
+        place: "Deep Learning course, EPFL",
+        date: "Summer semester 2021/2022",
+        supervisor:  "Not applicable",
+        summary: "Manually re-implemented several PyTorch modules required to build a CNN using only basic tensor operations. Built a de-noising CNN using the manually implemented modules. Reinforced experience in software engineering coding practices, object-oriented programming, unit testing, github and team collaboration.",
+        tech: "Machine Learning, CNN, Data augmentation, Python, Tensorflow",
+        src: courseprojectdl,
+        alt: "Denoising results obtained with a UNet built and trained using the manually implemented PyTorch modules.",
+        legend: "Denoising results obtained with a UNet built and trained using the manually implemented PyTorch modules. The left plot shows the noisy image input to the model, the middle plot is the model's prediction an the right plot is the ground truth clean image.",
+    },
+    {
+        title: "An Attention-based U-Net Model for Road Segmentation",
+        subtitle: "Course Project",
         place: "Machine Learning course, EPFL",
-        supervisor:  "-",
+        date: "Winter semester 2021/2022",
+        supervisor:  "Not applicable",
         summary: "Implemented an attention-based U-Net variant named TransUNet to perform a road segmentation task on satellite images.",
         tech: "Machine Learning, CNN, Data augmentation, Python, Tensorflow",
         src: courseprojectml,

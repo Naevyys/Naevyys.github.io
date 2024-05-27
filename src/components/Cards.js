@@ -12,7 +12,7 @@ export function MasterProjectCard(props) {
             <>
                 <div className="project">
                     <center><h3 className="projectTitle">{props.title}</h3>
-                    <h5 classname="projectSubtitle">{props.subtitle + " - Carried out in the " + props.place}</h5></center>
+                    <h5 classname="projectSubtitle">{props.subtitle + " - " + props.place + " - " + props.date}</h5></center>
                     <div className="projectDescription">
                         <p><b>Supervisor(s): </b>{props.supervisor}</p>
                         <p className="text-justify"><b>Project summary: </b>{props.summary}</p>
@@ -27,7 +27,7 @@ export function MasterProjectCard(props) {
             <>
                 <div className="project">
                     <center><h3 className="projectTitle">{props.title}</h3>
-                    <h5 classname="projectSubtitle">{props.subtitle + " - Carried out in the " + props.place}</h5></center>
+                    <h5 classname="projectSubtitle">{props.subtitle + " - " + props.place + " - " + props.date}</h5></center>
                     <div className="projectDescription">
                         <p><b>Supervisor(s): </b>{props.supervisor}</p>
                         <p className="text-justify"><b>Project summary: </b>{props.summary}</p>

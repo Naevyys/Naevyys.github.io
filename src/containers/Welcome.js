@@ -26,7 +26,7 @@ function Welcome() {
                         <center>
                             <Row>
                                 <h1>Iris Kremer</h1>
-                                <h3>Data Science Engineer</h3>
+                                <h3>Machine Learning Engineer</h3>
                             </Row>
                             <Row className="rowPadding">
                                 <div className="pictureContainer mx-auto">
@@ -58,7 +58,7 @@ function Welcome() {
                         <ButtonGroup vertical className="buttonGroup">
                             <Button variant="secondary" size="lg" className="button" onClick={ () => {history.push("/qualifications")} }>Qualifications</Button>
                             <Button variant="secondary" size="lg" className="button mt-1" onClick={ () => {history.push("/masterprojects")} }>Master Projects</Button>
-                            <Button variant="secondary" size="lg" className="button mt-1" onClick={ () => {history.push("/projects")} }>Bachelor Projects</Button>
+                            <Button variant="secondary" size="lg" className="button mt-1" onClick={ () => {history.push("/bachelorprojects")} }>Bachelor Projects</Button>
                         </ButtonGroup>
                     </Row>
                 </Col>
